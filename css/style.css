@@ -93,6 +93,7 @@ nav a {
   font-size: 1.125rem;
   margin-top: 10px;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -112,6 +113,7 @@ nav a:hover {
 
 .about_box a {
   color: var(--acc2);
+  transition: 0.3s;
 }
 
 .about_box a:hover {
@@ -179,7 +181,7 @@ h2 {
 
 #secondProject {
   grid-area: sp;
-  background-image: url("../images/challange1.png");
+  background-image: url("../images/prework.png");
   background-position: top;
 }
 
@@ -258,3 +260,25 @@ textarea {
 .btn:hover {
   background: var(--acc2);
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+  .projectGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 80vw;
+    grid-template-areas: 
+    "fp"
+    "sp"
+    "tp"
+    "fop"
+    "fip"
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
