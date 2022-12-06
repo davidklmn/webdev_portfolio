@@ -50,10 +50,12 @@ header {
 
 a {
   text-decoration: none;
+  color: var(--txtc);
 }
 
 a:link {
   text-decoration: none;
+  color: var(--txtc);
 }
 
 .avatar {
