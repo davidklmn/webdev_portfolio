@@ -8,7 +8,7 @@ I am planning to implement new functionality to the page as soon as I learn some
 
 Some part of the CSS coding was challanging but very fun.
 
-![screencshot of my finished project](https://github.com/davidklmn/Challenge1--HTML-CSS-Git/blob/main/assets/images/Screenshot%202022-11-28%20at%2014.11.45.png)
+![screencshot of my finished project](https://github.com/davidklmn/webdev_portfolio/blob/main/images/_Users_davidkelemen_bootcamp_portfolio_webdev_portfolio_index.html.png)
 
 ## Credits
 
