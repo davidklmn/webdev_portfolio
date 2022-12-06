@@ -193,19 +193,19 @@ h2 {
 
 #thirdProject {
   grid-area: tp;
-  background-image: url("../images/challange1.png");
+  background-image: url("../images/02-portfolio-4.jpg");
   background-position: top;
 }
 
 #fourthProject {
   grid-area: fop;
-  background-image: url("../images/challange1.png");
+  background-image: url("../images/02-portfolio-3.jpg");
   background-position: top;
 }
 
 #fifthProject {
   grid-area: fip;
-  background-image: url("../images/challange1.png");
+  background-image: url("../images/02-portfolio-2.jpg");
   background-position: top;
 }
 
@@ -218,7 +218,6 @@ h2 {
   border-radius: 0 0 5px 5px;
   font-size: 1.5rem;
 }
-
 
 /* Contact */
 
