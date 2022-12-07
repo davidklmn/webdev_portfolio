@@ -1,10 +1,11 @@
 :root {
-  --deep: #1B1B2F;
-  --acc1: #1F4068;
-  --acc2: #E43F5A;
+  --deep: #1b1b2f;
+  --acc1: #1f4068;
+  --acc2: #e43f5a;
   --acc2dimmed: #dc6478;
-  --txt: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-  --txtc: #FBFDFF;
+  --txt: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  --txtc: #fbfdff;
 }
 
 * {
@@ -35,19 +36,6 @@ p {
   margin: 0;
 }
 
-/* Header elements */
-header {
-  margin-bottom: 80px;
-}
-
-.wrap{
-    width: 100%;
-    max-width: 1024px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 80px 50px 50px;
-}
-
 a {
   text-decoration: none;
   color: var(--txtc);
@@ -56,6 +44,19 @@ a {
 a:link {
   text-decoration: none;
   color: var(--txtc);
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px 50px 50px;
+}
+
+/* Header and nav elements */
+header {
+  margin-bottom: 80px;
 }
 
 .avatar {
@@ -67,7 +68,7 @@ a:link {
   border-radius: 50px;
 }
 
-.hdr {
+.header_nav {
   display: inline-block;
   margin-left: 20px;
 }
@@ -106,6 +107,8 @@ nav a:hover {
   color: var(--acc2);
 }
 
+/* About me */
+
 #about {
   padding: 20px;
   background-color: var(--acc1);
@@ -139,6 +142,8 @@ h1 {
   margin-top: 20px;
 }
 
+/* Portfolio container */
+
 h2 {
   font-size: 2rem;
   margin-bottom: 60px;
@@ -149,15 +154,14 @@ h2 {
   color: var(--acc2);
 }
 
-/* Project Grid */
-
 .projectGrid {
   display: grid;
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "fp fp"
-  "sp tp"
-  "fop fip";
+  grid-template-areas:
+    "fp fp"
+    "sp tp"
+    "fop fip";
   margin-bottom: 80px;
 }
 
@@ -169,10 +173,11 @@ h2 {
   cursor: pointer;
   display: grid;
   align-content: end;
-  background-color: #1F4068;
+  background-color: #1f4068;
   opacity: 0.4;
   border-radius: 5px;
   transition: 1s;
+  position: relative;
 }
 
 .gridArea:hover {
@@ -220,6 +225,9 @@ h2 {
 }
 
 /* Contact */
+#contact {
+  margin-bottom: 80px;
+}
 
 form {
   width: 500px;
@@ -233,7 +241,7 @@ form {
   border-radius: 5px;
   background-color: transparent;
   border: 2px solid var(--acc2dimmed);
-  transition: all .5s;
+  transition: all 0.5s;
   padding: 12px;
   margin-bottom: 20px;
   width: 100%;
@@ -266,18 +274,25 @@ textarea {
   background: var(--acc2);
 }
 
+/* Footer */
+
+footer {
+  display: inline;
+  text-align: center;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 800px) {
   .projectGrid {
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 80vw;
-    grid-template-areas: 
-    "fp"
-    "sp"
-    "tp"
-    "fop"
-    "fip"
+    grid-template-areas:
+      "fp"
+      "sp"
+      "tp"
+      "fop"
+      "fip";
   }
 
   h2 {
@@ -286,7 +301,3 @@ textarea {
     align-items: center;
   }
 }
-
-
-
-Seb Kay's portfolio site: https://sebkay.com/ Perfet form for my contact segment: https://codepen.io/ZachSaucier/pen/jOwNvO
